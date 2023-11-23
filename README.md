@@ -1,2 +1,3 @@
 # car-booking
-car boooking website
+car boooking and hotel booking  website
+author-kanika aggarwal 
