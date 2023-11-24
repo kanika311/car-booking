@@ -9,7 +9,7 @@ document .addEventListener("mousemove",function(dets){
     blur.style.top=dets.y-150+"px"
 })
 gsap.to("#nav",{
-    backgroundColor:"#000",
+    backgroundColor:"white",
     duration:0.5,
     height:"100px",
     scrollTrigger:{

@@ -36,8 +36,8 @@ head {
 #nav h4 {
     text-transform: uppercase;
     font-weight: 900;
-    color: white;
-    font-size: 15px;
+    color: rgb(15, 9, 9);
+    font-size: 13px;
 
 
 }
@@ -57,7 +57,7 @@ head {
     background-color: #3cb5de;
     border-radius: 50%;
     position: fixed;
-    filter: blur(70px);
+    filter: blur(90px);
     z-index: 9;
 }
 
@@ -164,7 +164,8 @@ video {
 }
 
 #scroller h4:hover {
-    color: aquamarine;
+    color: rgb(40, 157, 118);
+    
 }
 
 @keyframes scroll {
@@ -309,15 +310,35 @@ white-space: nowrap;
 }
 #rectangle h4{
     color: beige;
-    font-size: 50px;
+    font-size: 20px;
     text-transform: uppercase;
     display: flex;
     margin: 90px;
 }
-#rectangle h3{
-    color: beige;
-    font-size: 20px;
-    text-transform: uppercase;
-    
-    margin: 90px;
+
+#page3{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(247, 247, 249);
+   
+    justify-content: center;
+    color: rgb(63, 95, 163);
+    }
+
+#page3 h3{
+text-transform: uppercase;
+text-align: center;
+font-size: 40px;
+justify-content: flex-start;
+
+}
+#page3 p{
+text-transform: capitalize;
+text-align: center;
+font-size: 25px;
+flex-direction: column;
+display: flex;
+color: rgb(5, 6, 6);
+margin-top: 50px;
+font-weight: 300;
 }
